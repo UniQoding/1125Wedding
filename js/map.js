@@ -3,7 +3,7 @@
 		   //Google Map
 
 			var mapCanvas = document.getElementById('map-canvas');
-			var myLatlng = new google.maps.LatLng(51.495809, -0.139440); //your latitude and longitude here
+			var myLatlng = new google.maps.LatLng(37.413223, 127.123237); //your latitude and longitude here
 			var mapOptions = {
 				zoom: 17,
 				scrollwheel: false,
