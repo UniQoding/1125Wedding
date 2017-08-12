@@ -18,10 +18,18 @@ $(document).ready(function () {
          title: ''
      });*/
 
-    var mapOptions = {
-        center: new naver.maps.LatLng(37.3595704, 127.105399),
+    var map = new naver.maps.Map('map-canvas', {
+        center: new naver.maps.LatLng(37.413223, 127.123237),
         zoom: 10
-    };
+    });
 
-    var map = new naver.maps.Map('map-canvas', mapOptions);
+    var marker = new naver.maps.Marker({
+        position: new naver.maps.LatLng(37.413223, 127.123237),
+        map: map,
+        icon: {
+            url: 'img/mapmarker.png',
+            size: new naver.maps.Size(32, 32)
+        },
+        animation: naver.maps.Animation.BOUNCE
+    });
 });
