@@ -23,6 +23,8 @@ $(document).ready(function () {
         zoom: 10
     });
 
+    map.setOptions("draggable", false);
+
     var marker = new naver.maps.Marker({
         position: new naver.maps.LatLng(37.413223, 127.123237),
         map: map,
