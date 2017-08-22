@@ -24,6 +24,9 @@ $(document).ready(function () {
     });
 
     map.setOptions("draggable", false);
+    map.setOptions("pinchZoom", false);
+    map.setOptions("scrollWheel", false);
+    map.setOptions("zoomControl", true);
 
     var marker = new naver.maps.Marker({
         position: new naver.maps.LatLng(37.413223, 127.123237),
