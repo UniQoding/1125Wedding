@@ -8,6 +8,7 @@ Version: 1.0
 "use strict";
 $(document).ready(function() {
 
+    loadImage();
   //Countdown
   
     $(function(){
@@ -91,7 +92,6 @@ $(document).ready(function() {
             },
         }
     });
- 
 }); // end document ready
 
 
@@ -199,6 +199,6 @@ $(window).load(function() {
 	  var currentScrollPosition = window.pageYOffset;
 	  window.scrollTo(0, currentScrollPosition - wheelDelta);
 	});
-	
+
 
 }); // end window load
