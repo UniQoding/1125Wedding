@@ -54,11 +54,11 @@
          <!-- Background blurred images -->
          <div class="photowall">
             <div class="col-md-4 margin1">
-               <img src="img/couple1.jpg" alt="" class="rotate1 img-photo img-responsive">
+               <img src="img/couple1.jpg" id="" alt="" class="rotate1 img-photo img-responsive">
             </div>
             <!-- /col-md-4 -->
             <div class="col-md-4  col-md-offset-4">
-               <img src="img/couple2.jpg" alt="" class="rotate2 img-photo img-responsive">
+               <img src="img/couple2.jpg" id="" alt="" class="rotate2 img-photo img-responsive">
             </div>
             <!-- /col-md-4 -->
          </div>
@@ -67,7 +67,7 @@
             data-100="margin-top:0px;transform: rotate(4deg);"
             data-center-center="margin-top:50px;transform: rotate(-10deg);">
             <!-- image-->
-            <img src="img/couplemain.jpg" alt="" class="img-photo img-responsive">
+            <img src="img/couplemain.jpg" id="" alt="" class="img-photo img-responsive">
          </div>
          <!--/main picture-->
          <div class="intro-heading col-md-12 text-center" data-0="opacity:1;"
@@ -202,7 +202,101 @@
             <div class="row-fluid">
                <!-- Gallery -->
                <div class="col-md-12 gallery margin1">
-                  <div id="lightbox"></div>
+                  <div id="lightbox">
+                     <!-- Image 1 -->
+                     <div class="wedding col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" data-original="img/gallery/1.jpg" id="1" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Image 2 -->
+                     <div class="wedding col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" data-original="img/gallery/2.jpg" id="2" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wedding col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" data-original="img/gallery/3.jpg" id="3" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wedding col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" data-original="img/gallery/4.jpg" id="4" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wedding col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" data-original="img/gallery/5.jpg" id="5" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wedding col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" data-original="img/gallery/6.jpg" id="6" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wedding col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" data-original="img/gallery/7.jpg" id="7" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wedding col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" data-original="img/gallery/8.jpg" id="8" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wedding col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" data-original="img/gallery/9.jpg" id="9" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wedding col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" data-original="img/gallery/10.jpg" id="10" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wedding col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" data-original="img/gallery/11.jpg" id="11" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wedding col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" data-original="img/gallery/12.jpg" id="12" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wedding col-lg-4 col-sm-6 col-md-6">
+                        <div class="isotope-item">
+                           <div class="gallery-thumb">
+                              <img class="img-responsive" data-original="img/gallery/13.jpg" id="13" alt="">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
                   <!-- /lightbox-->
                </div>
                <!-- /col-lg-12 -->
@@ -215,17 +309,17 @@
       <!-- Core JavaScript Files -->
       <script src="js/jquery.min.js"></script>
       <script src="js/jquery.loadTemplate.min.js"></script>
-      <script src="js/jquery.lazyload.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
-      <script src="js/image.js"></script>
+      <script src="js/jquery.lazyload.min.js"></script>
       <!-- Main Js -->
+      <script src="js/image.js"></script>
       <script src="js/main.js"></script>
       <!-- RSVP form -->
-      <script src="js/rsvp.js"></script>
+      <!--<script src="js/rsvp.js"></script>-->
       <!--Other Plugins -->
-      <script src="js/plugins.js"></script>
+      <!--<script src="js/plugins.js"></script>-->
       <!-- Prefix free CSS -->
-      <script src="js/prefixfree.js"></script>
+      <!--<script src="js/prefixfree.js"></script>-->
       <!-- Google maps-->
       <!-- Naver Map -->
       <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=ANe_qCNJ3fCsNFKAVBSX"></script>
