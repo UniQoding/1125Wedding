@@ -8,7 +8,7 @@ Version: 1.0
 "use strict";
 $(document).ready(function() {
     console.log(1);
-    loadImage();
+
 
   //Countdown
   
@@ -93,6 +93,7 @@ $(document).ready(function() {
             },
         }
     });
+    loadImage();
 
 
 }); // end document ready
@@ -127,7 +128,6 @@ $(window).load(function() {
     // Page Preloader 	
 
     $("#preloader").fadeOut("slow");
-	
     // Pretty Photo
 
     $("a[data-gal^='prettyPhoto']").prettyPhoto({
