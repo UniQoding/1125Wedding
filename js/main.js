@@ -7,7 +7,7 @@ Version: 1.0
 
 "use strict";
 $(document).ready(function() {
-    console.log(1);
+    // console.log(1);
 
 
   //Countdown
@@ -93,7 +93,7 @@ $(document).ready(function() {
             },
         }
     });
-    loadImage();
+    // loadImage();
 
 
 }); // end document ready
@@ -124,7 +124,7 @@ $(window).scroll(function() {
 // Window load function
 
 $(window).load(function() {
-    console.log(2);
+    // console.log(2);
     // Page Preloader 	
 
     $("#preloader").fadeOut("slow");
